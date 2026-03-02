@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre producción de contenidos digitales con categorías como montaje audiovisual, edición de imagen, edición de audio, edición de video, creación web, maquetación y frontend, y web responsive y SEO, junto con subtemas relacionados a procesos técnicos, herramientas, formatos, lenguajes, arquitectura, estándares y optimización digital. ")
+          img(src="@/assets/curso/sintesis.svg", alt="Síntesis fundamentos de la animación con seis categorías principales: historia, técnicas, principios, imagen digital, formatos y tendencias. Incluye subtemas como antecedentes prehistóricos, dispositivos ópticos, cine animado, animación digital e IA; técnicas tradicional, 2D, stop motion, motion graphics y 3D; 12 principios clásicos; representación en píxeles y atributos técnicos; formatos JPG, GIF, PNG, BMP, TIFF, PSD, RAW y PDF; y tendencias como fondos animados, logos animados, infografías, Live Data y texto en movimiento")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
