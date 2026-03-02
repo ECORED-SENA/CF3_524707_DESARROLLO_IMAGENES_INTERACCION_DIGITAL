@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Producción de contenidos digitales',
+    Name: 'Fundamentos de la animación',
     Description:
-      'La composición de efectos visuales consiste en la creación de productos a partir de la manipulación y combinación de elementos digitales, con el fin de generar piezas que transmitan la sensación de unidad en la imagen resultante, independiente de si es real o no. Este concepto puede aplicarse tanto a imágenes fijas, en movimiento o audiovisuales y páginas web; aprendizajes que serán abordados en el presente componente formativo',
+      'Elementos estáticos, inanimados, que se presentan en secuencias rápidas que cobran “vida”, cuentan historias y transmiten sentimientos, eso es la animación. En la actualidad la animación es un negocio que mueve millones de dólares al año, a nivel mundial se destacan la industria americana, japonesa y europea. Por lo anterior, en el presente componente se abordan los elementos centrales para la comprensión del tema.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -293,7 +293,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Líder del Ecosistema',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Centro Agroturístico- Regional Santander',
         },
         {
           nombre: 'Olga Constanza Bermúdez',
@@ -323,14 +323,14 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Carlos Julián Ramírez Benitez',
+          nombre: 'Juan José Calderon Gutiérrez',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Cielo Damaris Angulo Rodríguez',
-          cargo: 'Desarrollador full stack senior',
+          cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -367,7 +367,7 @@ export default {
       ],
     },
     {
-      titulo: 'GESTORES DE REPOSITORIO',
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
           nombre: 'Javier Ricardo Ortiz Puentes',

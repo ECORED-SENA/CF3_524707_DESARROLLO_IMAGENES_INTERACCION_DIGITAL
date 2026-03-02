@@ -1,1 +1,1 @@
-module.exports = 'Producción de contenidos digitales'
+module.exports = 'Fundamentos de la animación'
