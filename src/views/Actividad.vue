@@ -17,10 +17,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Producción e integración de contenidos digitales',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> identificar los conceptos clave relacionados con la edición, montaje, formatos digitales, producción audiovisual y desarrollo web.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,28 +28,30 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Qué se entiende por montaje audiovisual dentro del proceso de producción?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Proceso narrativo que articula significados mediante fragmentos audiovisuales.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Procedimiento técnico exclusivo para corregir errores de grabación.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Método de almacenamiento digital en sistemas multimedia.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Sistema automático de exportación de archivos finales.',
               esCorrecta: false,
             },
           ],
@@ -58,29 +60,32 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+          texto: '¿Cuál es la diferencia principal entre edición y montaje?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'La edición organiza la narrativa y el montaje corrige color.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'La edición es técnica y el montaje construye sentido narrativo.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'La edición solo aplica a fotografía y el montaje a sonido.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'La edición elimina escenas y el montaje captura imágenes.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +94,32 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Cómo se define una imagen digital desde el ámbito tecnológico?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Representación tridimensional almacenada en papel fotográfico.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Archivo físico compuesto por emulsiones químicas sensibles.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Representación bidimensional construida mediante matriz numérica binaria.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Secuencia animada proyectada en dispositivos analógicos.',
               esCorrecta: false,
             },
           ],
@@ -119,30 +128,32 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: '¿Qué caracteriza a una imagen en mapa de bits?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Está compuesta por fórmulas matemáticas escalables infinitamente.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Puede ampliarse sin perder definición en impresión.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Utiliza únicamente vectores y nodos geométricos editables.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Se compone de píxeles organizados en rejilla rectangular.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -150,28 +161,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            '¿Cuál es una característica principal de la imagen vectorial?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Puede ampliarse sin pérdida de calidad visual.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Depende exclusivamente de la resolución en píxeles.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Se construye mediante puntos físicos impresos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Requiere escáner para su digitalización inicial.',
               esCorrecta: false,
             },
           ],
@@ -181,28 +193,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Qué determina principalmente la resolución de una imagen digital?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'El formato de compresión seleccionado al guardar.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'La cantidad total de píxeles en ancho y alto.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'El tipo de dispositivo donde se visualiza.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'La marca del software utilizado en edición.',
               esCorrecta: false,
             },
           ],
@@ -212,28 +224,28 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Qué modelo de color se utiliza principalmente en pantallas electrónicas?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'CMYK basado en tintas de impresión física.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'HSB centrado en brillo y saturación cromática.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'RGB basado en combinación de luz aditiva.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Escala monocromática limitada a grises puros.',
               esCorrecta: false,
             },
           ],
@@ -242,30 +254,29 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿Cuál es la función principal del formato TIFF?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Reducir tamaño sacrificando calidad sonora.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Limitar imagen a máximo doscientos colores.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Optimizar gráficos exclusivamente para web.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Priorizar alta calidad para impresión profesional.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -273,20 +284,32 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: '¿Qué implica la edición digital de imágenes?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Manipulación mediante software para reforzar mensajes visuales.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'Proceso químico tradicional aplicado en laboratorio físico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Captura directa sin posibilidad de modificación posterior.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Impresión automática sin intervención conceptual previa.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -295,18 +318,28 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            '¿Qué distingue a los aspectos creativos en la edición de imagen?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Uso obligatorio de herramientas técnicas avanzadas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Definición conceptual y semiótica del mensaje visual.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Configuración automática del formato de exportación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Conversión inmediata de archivos a múltiples versiones.',
               esCorrecta: false,
             },
           ],
@@ -315,20 +348,29 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Qué caracteriza al formato MP3?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Formato sin compresión de alta fidelidad sonora.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Sistema exclusivo para transmisión audiovisual.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Formato comprimido con pérdida y amplia compatibilidad.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Archivo profesional solo utilizado en cine.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -336,20 +378,29 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Cuál es una característica del formato WAV?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Reduce tamaño eliminando frecuencias imperceptibles.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Permite transmisión inalámbrica optimizada.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Se utiliza únicamente en plataformas móviles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ofrece alta calidad sin compresión significativa.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -357,19 +408,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: '¿Qué es un fotograma en edición de video?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Imagen fija individual dentro de una secuencia.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Transición aplicada entre dos escenas distintas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Efecto digital añadido en posproducción avanzada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Plano general grabado con cámara en movimiento.',
               esCorrecta: false,
             },
           ],
@@ -378,20 +438,29 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: '¿Qué define una secuencia en narrativa audiovisual?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Unidad mínima sin continuidad argumental definida.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Conjunto de escenas con continuidad de acción.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Fragmento aislado sin relación con el guion.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Toma individual repetida sin variaciones técnicas.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -399,20 +468,179 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: '¿Qué caracteriza al plano general?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Enfatiza exclusivamente detalles mínimos del entorno.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Encuadra rostro resaltando expresión emocional intensa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Incluye únicamente objetos secundarios sin contexto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Describe el espacio donde ocurre la acción.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: '¿Cuál es la función del guion técnico en edición de video?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Capturar imágenes durante rodaje inicial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Exportar automáticamente archivos finales digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aplicar filtros visuales sin intervención humana.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Organizar escenas, planos y recursos narrativos.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Qué es un wireframe en diseño web?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Boceto estructural que organiza contenido y navegación.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Producto final completamente funcional en línea.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Sistema de alojamiento web con base de datos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Lenguaje de programación orientado a servidores.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: '¿Qué función cumple el CSS en desarrollo web?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Definir estructura básica del documento HTML.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Gestionar bases de datos del servidor remoto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Controlar la presentación visual del contenido web.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Procesar solicitudes HTTP entre cliente y servidor.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué caracteriza a una URL amigable para SEO?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Uso extensivo de símbolos y parámetros complejos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Incorporación de códigos numéricos aleatorios largos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Dependencia exclusiva del dominio principal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Claridad descriptiva basada en palabras clave.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: '¿Cuál es una ventaja principal del diseño web responsive?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Obliga a crear versiones separadas del sitio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Limita el acceso desde dispositivos móviles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reduce compatibilidad con motores de búsqueda.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Permite adaptación a distintos tamaños de pantalla.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
