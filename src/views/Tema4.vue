@@ -4,28 +4,24 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
-        span 2
-      h1 Técnicas de animación
+        span 4
+      h1 Pensamiento innovador y tendencias en la animación
+    
     
     separador
-        
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 2.1 Tipos de animación
-
-    separador
     
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 2.2 Principios de la animación
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 4.1 Aplicaciones más recientes de la animación
     
    
-  
+
 </template>
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema1',
   data: () => ({
-    // variables de vue
+    mostrarIndicadorTarjetaAudio: true,
   }),
   mounted() {
     this.$nextTick(() => {

@@ -4,28 +4,31 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
-        span 2
-      h1 Técnicas de animación
+        span 3
+      h1 Imagen digital
+    
     
     separador
-        
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 2.1 Tipos de animación
+    
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.1 Formatos digitales
+    
+    
 
     separador
     
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 2.2 Principios de la animación
-    
-   
-  
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.2 Herramientas digitales  
+        
+       
+
 </template>
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema1',
   data: () => ({
-    // variables de vue
+    mostrarIndicadorTarjetaAudio: true,
   }),
   mounted() {
     this.$nextTick(() => {

@@ -17,10 +17,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Producción e integración de contenidos digitales',
+      tema: 'Fundamentos históricos, técnicos y digitales de la animación',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> identificar los conceptos clave relacionados con la edición, montaje, formatos digitales, producción audiovisual y desarrollo web.',
+        '<b> Objetivo:</b> Identificar los conceptos clave relacionados con la evolución histórica, técnicas, principios, imagen digital y tendencias actuales en la animación.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,30 +28,28 @@ export default {
         {
           id: 1,
           texto:
-            '¿Qué se entiende por montaje audiovisual dentro del proceso de producción?',
+            '¿Cuál es el principio fundamental que consolidaron los antecedentes de la animación?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Proceso narrativo que articula significados mediante fragmentos audiovisuales.',
-              esCorrecta: true,
+              texto: 'La representación estática sin variaciones temporales.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Procedimiento técnico exclusivo para corregir errores de grabación.',
+              texto: 'La captura directa de movimiento en celuloide.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Método de almacenamiento digital en sistemas multimedia.',
-              esCorrecta: false,
+              texto: 'La sucesión organizada de imágenes estáticas.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Sistema automático de exportación de archivos finales.',
+              texto: 'La proyección simultánea de imágenes superpuestas.',
               esCorrecta: false,
             },
           ],
@@ -60,32 +58,28 @@ export default {
         },
         {
           id: 2,
-          texto: '¿Cuál es la diferencia principal entre edición y montaje?',
+          texto: '¿En qué año se presentó el Praxinoscopio de Émile Reynaud?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'La edición organiza la narrativa y el montaje corrige color.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'La edición es técnica y el montaje construye sentido narrativo.',
+              texto: 'En el año mil ochocientos setenta y siete.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'En el año mil ochocientos veinticuatro.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto:
-                'La edición solo aplica a fotografía y el montaje a sonido.',
+              texto: 'En el año mil novecientos seis.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'La edición elimina escenas y el montaje captura imágenes.',
+              texto: 'En el año mil ochocientos veintinueve.',
               esCorrecta: false,
             },
           ],
@@ -95,32 +89,29 @@ export default {
         {
           id: 3,
           texto:
-            '¿Cómo se define una imagen digital desde el ámbito tecnológico?',
+            '¿Qué innovación técnica introdujo Steamboat Willie en mil novecientos veintiocho?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Representación tridimensional almacenada en papel fotográfico.',
+              texto: 'La animación completamente tridimensional digital.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Archivo físico compuesto por emulsiones químicas sensibles.',
+              texto: 'La aplicación de color en largometrajes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Representación bidimensional construida mediante matriz numérica binaria.',
-              esCorrecta: true,
+              texto: 'La integración de actores reales y dibujos.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Secuencia animada proyectada en dispositivos analógicos.',
-              esCorrecta: false,
+              texto: 'La sincronización total entre sonido y acción.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -128,32 +119,30 @@ export default {
         },
         {
           id: 4,
-          texto: '¿Qué caracteriza a una imagen en mapa de bits?',
+          texto:
+            '¿Cuál fue la primera película animada totalmente digital producida por Pixar?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Está compuesta por fórmulas matemáticas escalables infinitamente.',
+              texto: 'Blancanieves y los siete enanitos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Puede ampliarse sin perder definición en impresión.',
+              texto: '¿Quién engañó a Roger Rabbit?.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Utiliza únicamente vectores y nodos geométricos editables.',
-              esCorrecta: false,
+              texto: 'Toy Story producida en mil novecientos noventa y cinco.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'Se compone de píxeles organizados en rejilla rectangular.',
-              esCorrecta: true,
+              texto: 'Merrie Melodies de Warner Brothers.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -161,29 +150,28 @@ export default {
         },
         {
           id: 5,
-          texto:
-            '¿Cuál es una característica principal de la imagen vectorial?',
+          texto: '¿Qué caracteriza a la animación tradicional?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Puede ampliarse sin pérdida de calidad visual.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Depende exclusivamente de la resolución en píxeles.',
+              texto: 'La manipulación digital de modelos tridimensionales.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'El dibujo manual fotograma a fotograma.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Se construye mediante puntos físicos impresos.',
+              texto: 'La captura de movimiento con sensores corporales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Requiere escáner para su digitalización inicial.',
+              texto: 'La simulación automática por inteligencia artificial',
               esCorrecta: false,
             },
           ],
@@ -193,29 +181,29 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué determina principalmente la resolución de una imagen digital?',
+            '¿Cuál técnica consiste en manipular objetos físicos y fotografiarlos secuencialmente?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'El formato de compresión seleccionado al guardar.',
+              texto: 'La animación tipográfica digital avanzada.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'La cantidad total de píxeles en ancho y alto.',
-              esCorrecta: true,
+              texto: 'La animación tridimensional por computador.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'El tipo de dispositivo donde se visualiza.',
+              texto: 'La rotoscopia con actores digitales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'La marca del software utilizado en edición.',
-              esCorrecta: false,
+              texto: 'El stop motion con objetos reales.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -224,28 +212,28 @@ export default {
         {
           id: 7,
           texto:
-            '¿Qué modelo de color se utiliza principalmente en pantallas electrónicas?',
+            '¿Qué técnica combina grabación real con dibujo sobre fotogramas?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'CMYK basado en tintas de impresión física.',
+              texto: 'La animación tridimensional digital avanzada.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'HSB centrado en brillo y saturación cromática.',
+              texto: 'La pixilación con actores inmóviles.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'RGB basado en combinación de luz aditiva.',
+              texto: 'La rotoscopia aplicada sobre filmación real.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Escala monocromática limitada a grises puros.',
+              texto: 'La animación tradicional sobre acetato.',
               esCorrecta: false,
             },
           ],
@@ -254,28 +242,29 @@ export default {
         },
         {
           id: 8,
-          texto: '¿Cuál es la función principal del formato TIFF?',
+          texto:
+            '¿Cuál principio establece que los movimientos deben iniciar y finalizar progresivamente?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Reducir tamaño sacrificando calidad sonora.',
+              texto: 'El principio de exageración expresiva.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Limitar imagen a máximo doscientos colores.',
+              texto: 'La acción secundaria complementaria.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Optimizar gráficos exclusivamente para web.',
+              texto: 'El principio de arcos orgánicos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Priorizar alta calidad para impresión profesional.',
+              texto: 'El principio de entradas y salidas suaves.',
               esCorrecta: true,
             },
           ],
@@ -284,31 +273,29 @@ export default {
         },
         {
           id: 9,
-          texto: '¿Qué implica la edición digital de imágenes?',
+          texto:
+            '¿Qué atributo digital determina el nivel de detalle de una imagen?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Manipulación mediante software para reforzar mensajes visuales.',
-              esCorrecta: true,
+              texto: 'La extensión del nombre del archivo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Proceso químico tradicional aplicado en laboratorio físico.',
+              texto: 'El tipo de dispositivo de captura.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Captura directa sin posibilidad de modificación posterior.',
-              esCorrecta: false,
+              texto: 'La cantidad de píxeles en pantalla.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Impresión automática sin intervención conceptual previa.',
+              texto: 'La duración temporal del archivo.',
               esCorrecta: false,
             },
           ],
@@ -318,28 +305,28 @@ export default {
         {
           id: 10,
           texto:
-            '¿Qué distingue a los aspectos creativos en la edición de imagen?',
+            '¿Cuál formato permite hasta doscientos cincuenta y seis colores y es común en internet?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Uso obligatorio de herramientas técnicas avanzadas.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Definición conceptual y semiótica del mensaje visual.',
+              texto: 'El formato GIF para gráficos animados.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'El formato RAW de captura total.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Configuración automática del formato de exportación.',
+              texto: 'El formato TIFF de alta calidad.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Conversión inmediata de archivos a múltiples versiones.',
+              texto: 'El formato PSD editable nativo.',
               esCorrecta: false,
             },
           ],
@@ -348,58 +335,51 @@ export default {
         },
         {
           id: 11,
-          texto: '¿Qué caracteriza al formato MP3?',
+          texto: '¿Qué formato conserva capas y es propio de Adobe Photoshop?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Formato sin compresión de alta fidelidad sonora.',
+              texto: 'El formato JPEG comprimido estándar.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Sistema exclusivo para transmisión audiovisual.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Formato comprimido con pérdida y amplia compatibilidad.',
+              texto: 'El formato PSD editable por capas.',
               esCorrecta: true,
             },
             {
-              id: 'd',
-              texto: 'Archivo profesional solo utilizado en cine.',
+              id: 'c',
+              texto: 'El formato BMP sin compresión.',
               esCorrecta: false,
             },
+            { id: 'd', texto: 'El formato PDF de lectura.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 12,
-          texto: '¿Cuál es una característica del formato WAV?',
+          texto:
+            '¿Cuál formato almacena todos los datos captados por el sensor de la cámara?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Reduce tamaño eliminando frecuencias imperceptibles.',
+              texto: 'El formato PNG con transparencia.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Permite transmisión inalámbrica optimizada.',
+              texto: 'El formato GIF de baja paleta.',
               esCorrecta: false,
             },
-            {
-              id: 'c',
-              texto: 'Se utiliza únicamente en plataformas móviles.',
-              esCorrecta: false,
-            },
+            { id: 'c', texto: 'El formato JPG comprimido.', esCorrecta: false },
             {
               id: 'd',
-              texto: 'Ofrece alta calidad sin compresión significativa.',
+              texto: 'El formato RAW considerado negativo digital.',
               esCorrecta: true,
             },
           ],
@@ -408,29 +388,29 @@ export default {
         },
         {
           id: 13,
-          texto: '¿Qué es un fotograma en edición de video?',
+          texto: '¿Qué se entiende por pensamiento innovador en animación?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Imagen fija individual dentro de una secuencia.',
-              esCorrecta: true,
+              texto: 'Repetir técnicas clásicas sin variaciones.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Transición aplicada entre dos escenas distintas.',
+              texto: 'Evitar el uso de tecnologías recientes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Efecto digital añadido en posproducción avanzada.',
+              texto: 'Limitar la animación al cine tradicional.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Plano general grabado con cámara en movimiento.',
-              esCorrecta: false,
+              texto: 'Proponer soluciones creativas con potencial rentable.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -438,28 +418,29 @@ export default {
         },
         {
           id: 14,
-          texto: '¿Qué define una secuencia en narrativa audiovisual?',
+          texto:
+            '¿Cuál aplicación actual fortalece la identidad corporativa en entornos digitales?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Unidad mínima sin continuidad argumental definida.',
+              texto: 'Las imágenes estáticas sin movimiento.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Conjunto de escenas con continuidad de acción.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Fragmento aislado sin relación con el guion.',
+              texto: 'Los documentos impresos tradicionales.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Los logotipos animados en tres dimensiones.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Toma individual repetida sin variaciones técnicas.',
+              texto: 'Los archivos de texto plano.',
               esCorrecta: false,
             },
           ],
@@ -468,28 +449,29 @@ export default {
         },
         {
           id: 15,
-          texto: '¿Qué caracteriza al plano general?',
+          texto:
+            '¿Cuál principio busca otorgar mayor dramatismo mediante distorsión controlada?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Enfatiza exclusivamente detalles mínimos del entorno.',
+              texto: 'El principio de solidez estructural.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Encuadra rostro resaltando expresión emocional intensa.',
+              texto: 'La acción directa secuencial.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Incluye únicamente objetos secundarios sin contexto.',
+              texto: 'La puesta en escena narrativa.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Describe el espacio donde ocurre la acción.',
+              texto: 'El principio de exageración expresiva.',
               esCorrecta: true,
             },
           ],
@@ -498,29 +480,30 @@ export default {
         },
         {
           id: 16,
-          texto: '¿Cuál es la función del guion técnico en edición de video?',
+          texto:
+            '¿Qué técnica utiliza personas reales como variante del stop motion?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Capturar imágenes durante rodaje inicial.',
+              texto: 'La rotoscopia tradicional dibujada.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Exportar automáticamente archivos finales digitales.',
-              esCorrecta: false,
+              texto: 'La pixilación con actores fotografiados.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Aplicar filtros visuales sin intervención humana.',
+              texto: 'La animación tridimensional digital.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Organizar escenas, planos y recursos narrativos.',
-              esCorrecta: true,
+              texto: 'La animación tipográfica corporativa.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -528,28 +511,29 @@ export default {
         },
         {
           id: 17,
-          texto: '¿Qué es un wireframe en diseño web?',
+          texto:
+            '¿Qué etapa incluye diseño, storyboard y animatic antes de producir?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Boceto estructural que organiza contenido y navegación.',
-              esCorrecta: true,
+              texto: 'La etapa de producción técnica.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Producto final completamente funcional en línea.',
+              texto: 'La etapa de postproducción final.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Sistema de alojamiento web con base de datos.',
-              esCorrecta: false,
+              texto: 'La etapa de preproducción inicial.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Lenguaje de programación orientado a servidores.',
+              texto: 'La etapa de renderizado digital.',
               esCorrecta: false,
             },
           ],
@@ -558,29 +542,30 @@ export default {
         },
         {
           id: 18,
-          texto: '¿Qué función cumple el CSS en desarrollo web?',
+          texto:
+            '¿Cuál principio indica que las partes del cuerpo no se detienen simultáneamente?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Definir estructura básica del documento HTML.',
+              texto: 'El principio de timing narrativo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Gestionar bases de datos del servidor remoto.',
+              texto: 'El principio de appeal emocional.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Controlar la presentación visual del contenido web.',
-              esCorrecta: true,
+              texto: 'El principio de solidez volumétrica.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Procesar solicitudes HTTP entre cliente y servidor.',
-              esCorrecta: false,
+              texto: 'El principio de acción continuada superpuesta.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -588,58 +573,52 @@ export default {
         },
         {
           id: 19,
-          texto: '¿Qué caracteriza a una URL amigable para SEO?',
+          texto:
+            '¿Qué formato fue desarrollado para superar limitaciones del GIF?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Uso extensivo de símbolos y parámetros complejos.',
-              esCorrecta: false,
+              texto: 'El formato PNG con mayor profundidad.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Incorporación de códigos numéricos aleatorios largos.',
+              texto: 'El formato BMP de gran tamaño.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Dependencia exclusiva del dominio principal.',
+              texto: 'El formato RAW sin compresión.',
               esCorrecta: false,
             },
-            {
-              id: 'd',
-              texto: 'Claridad descriptiva basada en palabras clave.',
-              esCorrecta: true,
-            },
+            { id: 'd', texto: 'El formato PSD por capas.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 20,
-          texto: '¿Cuál es una ventaja principal del diseño web responsive?',
+          texto:
+            '¿Cuál tendencia actual anima datos para mejorar su comprensión?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Obliga a crear versiones separadas del sitio.',
+              texto: 'El surrealismo digital creativo.',
               esCorrecta: false,
             },
-            {
-              id: 'b',
-              texto: 'Limita el acceso desde dispositivos móviles.',
-              esCorrecta: false,
-            },
+            { id: 'b', texto: 'Los fondos animados web.', esCorrecta: false },
             {
               id: 'c',
-              texto: 'Reduce compatibilidad con motores de búsqueda.',
+              texto: 'Los textos tipográficos móviles.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Permite adaptación a distintos tamaños de pantalla.',
+              texto: 'La animación de datos en tiempo real.',
               esCorrecta: true,
             },
           ],

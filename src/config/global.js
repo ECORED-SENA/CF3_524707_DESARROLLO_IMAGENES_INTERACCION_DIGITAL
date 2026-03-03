@@ -36,23 +36,19 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Montaje audiovisual',
+        titulo: 'Historia de la animación',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Edición de imagen',
+            titulo: 'Antecedentes y dispositivos precursores de la animación',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Edición de audio',
+            titulo:
+              'Consolidación cinematográfica y evolución tecnológica de la animación',
             hash: 't_1_2',
-          },
-          {
-            numero: '1.3',
-            titulo: 'Edición de video',
-            hash: 't_1_3',
           },
         ],
       },
@@ -60,38 +56,49 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Creación <em>web</em>',
+        titulo: 'Técnicas de animación',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Diseño <em>web</em>',
+            titulo: 'Tipos de animación',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Arquitectura y diagramación <em>web</em>',
+            titulo: 'Principios de la animación',
             hash: 't_2_2',
           },
+        ],
+      },
+      {
+        nombreRuta: 'tema3',
+        numero: '3',
+        titulo: 'Técnicas de animación',
+        desarrolloContenidos: true,
+        subMenu: [
           {
-            numero: '2.3',
-            titulo: '<em>Software</em> para hacer diagramas',
-            hash: 't_2_3',
+            numero: '3.1',
+            titulo: 'Formatos digitales',
+            hash: 't_3_1',
           },
           {
-            numero: '2.4',
-            titulo: 'Maquetación <em>web</em>',
-            hash: 't_2_4',
+            numero: '3.2',
+            titulo: 'Herramientas digitales',
+            hash: 't_3_2',
           },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Pensamiento innovador y tendencias en la animación',
+        desarrolloContenidos: true,
+        subMenu: [
           {
-            numero: '2.5',
-            titulo: 'Lenguajes de programación para <em>frontend</em>',
-            hash: 't_2_5',
-          },
-          {
-            numero: '2.6',
-            titulo: 'Estructuración técnica de un sitio <em>web</em>',
-            hash: 't_2_6',
+            numero: '4.1',
+            titulo: 'Aplicaciones más recientes de la animación',
+            hash: 't_4_1',
           },
         ],
       },
@@ -151,139 +158,137 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Buscador',
-      significado: 'herramienta web que permite ubicar contenidos en la red.',
-    },
-    {
-      termino: 'Declaración CSS',
+      termino: '<em>Animatic</em>',
       significado:
-        'es la suma de la propiedad más el valor y se encuentra siempre entre dos corchetes. si el selector es la parte del código que indica en qué parte se ha de aplicar la regla CSS, la declaración explica en qué consisten las instrucciones.',
+        'es la versión animada del storyboard. No debe ser tan minuciosa, solo para detallar lo que no se pudo ver en el paso anterior.',
     },
     {
-      termino: 'Etiqueta',
-      significado: 'cada uno de los elementos del lenguaje HTML.',
-    },
-    {
-      termino: 'Formatos',
+      termino: '<em>Animation</em>',
       significado:
-        'se les llama formatos generalmente a cada tipo de archivo, por ejemplo: JPG, GIF.',
+        'proceso utilizado por uno o más animadores para dar la sensación de movimiento a imágenes o dibujos u otro tipo de objetos inanimados.',
     },
     {
-      termino: 'Hosting',
+      termino: '<em>Compositing</em>',
       significado:
-        'sinónimo de servidor; también se denomina así a los servidores que alojan sitios web y se les conoce como HOST.',
+        'dentro de una animación existen diversas capas; el objetivo del compositing es agruparlas todas para convertirlas en una pieza individual donde todas las escenas trabajen en conjunto.',
     },
     {
-      termino: 'HTML',
-      significado:
-        '<em>hypertext markup language</em> o lenguaje de marcado de hipertextos. destinado a simplificar la escritura de documentos estándar. es la base estructural en la que están diseñadas las páginas de la World Wide Web.',
+      termino: '<em>Concept art</em>',
+      significado: 'establece el estilo visual dentro de la animación.',
     },
     {
-      termino: 'HTTP',
-      significado:
-        '<em>hypertext transfer protocol</em> o protocolo de transferencia de hipertexto. es el mecanismo de intercambio de información que constituye la base funcional de la World Wide Web.',
+      termino: '<em>Frame</em>',
+      significado: 'imagen en una sucesión de imágenes.',
     },
     {
-      termino: 'Lenguaje de programación',
+      termino: '<em>Keyframes/Keys</em>',
       significado:
-        'puede utilizarse para definir una secuencia de instrucciones para su procesamiento por un computador.',
+        'son las posiciones más importantes dentro de una escena. Dentro de un software son los puntos que se establecen en el timeline para posicionar cambios de posición, escala, entre otros.',
     },
     {
-      termino: 'Multimedia',
+      termino: '<em>Layout</em>',
       significado:
-        'combinación de varias tecnologías de presentación de información como imágenes, sonido, animación, video y texto, con la intención de captar tantos sentidos humanos como sea posible.',
+        'etapa en la cual se determina la posición de los personajes, se planifica la puesta en escena y los tiempos, así como el ángulo y la posición de la cámara, el origen de la luz y la proyección de las sombras.',
     },
     {
-      termino: 'Navegador',
+      termino: 'Pixilación',
       significado:
-        'programa que permite leer documentos en la web y seguir enlaces o <em>links</em> de un documento de hipertexto a otro.',
+        'es una variante del stop motion, con la particularidad de que se utilizan personas.',
     },
     {
-      termino: 'WWW',
+      termino: 'Postproducción',
       significado:
-        'también conocido simplemente como web, es uno de los servicios más populares de internet. combina texto con gráficos, imágenes, animaciones e incluso música, enlazados entre sí de tal manera que facilita la navegación por la información dispersa en todo internet.',
+        'etapa posterior a la producción que incluye edición, ajuste de color, luminosidad, contraste de los diferentes planos y efectos especiales.',
+    },
+    {
+      termino: 'Preproducción',
+      significado:
+        'etapa anterior a la producción en la cual se prepara el material, como diseño, color script, animatic y storyboard.',
+    },
+    {
+      termino: 'Producción',
+      significado:
+        'etapa en la cual se realiza el proyecto, incluyendo animación, iluminación y render.',
+    },
+    {
+      termino: 'Rotoscopia',
+      significado:
+        'técnica que consiste en reemplazar los fotogramas de una filmación real por dibujos calcados sobre cada fotograma.',
+    },
+    {
+      termino: '<em>Script</em>',
+      significado:
+        'es la transcripción, en palabras, de la historia y sirve como base antes de comenzar la producción.',
+    },
+    {
+      termino: '<em>Software</em>',
+      significado:
+        'conjunto de programas, instrucciones y reglas informáticas que permiten ejecutar distintas tareas en un sistema informático.',
+    },
+    {
+      termino: '<em>Stop motion</em>',
+      significado:
+        'técnica de animación que consiste en simular el movimiento de objetos estáticos mediante imágenes fijas sucesivas. Generalmente también se denomina animación fotograma a fotograma y se utiliza para animar distintos objetos.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Blázquez Nieto, A. (2019). Nuevas tecnologías aplicadas a la vida: smartphone, tablet e internet.',
+        'Information & Communication Technology. (s. f.). Animation Adobe Animate CC 2020 level 1 (English version): Animation. Google Books.',
+      link: 'https://books.google.com.co/books?id=GFzdDwAAQBAJ',
+    },
+    {
+      referencia: 'Adobe. (s. f.). Adobe After Effects.',
+      link: 'https://adobe.ly/3tNC45I',
+    },
+    {
+      referencia: 'Adobe. (s. f.). Guía del usuario de After Effects.',
+      link: 'https://adobe.ly/2Qsctkm',
+    },
+    {
+      referencia: 'Autodesk. (s. f.). Autodesk Latinoamérica.',
+      link: 'https://latinoamerica.autodesk.com/',
+    },
+    {
+      referencia:
+        'Cortés, J. (2020, 14 de octubre). ¿Qué es la animación? Tipos y técnicas. Notodoanimacion.',
       link:
-        'https://docplayer.es/78951030-Nuevas-tecnologias-aplicadas-a-la-vida-smartphone-tablet-e-internet.html',
-    },
-    {
-      referencia: 'Equipo 09, EvntosSv.com. (2019). Maquetación web.',
-      link: 'https://evntossv.neocities.org/maquetacion.html',
+        'https://www.notodoanimacion.es/que-es-la-animacion-tipos-y-tecnicas/',
     },
     {
       referencia:
-        'Faulker, A., y Gyncild, B. (2015). Adobe Photoshop CC 2014. Anaya Multimedia.',
-      link: '',
-    },
-    {
-      referencia: 'Fernández, A. (2005). Imagen digital.',
-      link: '',
-    },
-    {
-      referencia: 'Garrett, J. J. (2002). IA/recon (versión en español).',
-      link: 'http://www.jjg.net/ia/recon/spanish.html',
-    },
-    {
-      referencia:
-        'Leyva, Alarcón, Barrera, y Ortegón. (2016). Exploración del diseño y arquitectura web: aplicación a páginas electrónicas del sector bancario desde la perspectiva del usuario. Revista Escuela de Administración de Negocios, (80), 41-57.',
+        'Díaz Aguilar, A. M. (2014). Lenguajes audiovisual y escrito: Una propuesta educativa para su manejo integral. En UNID (Ed.), Experiencias que transforman: XV años conectando vidas (pp. 5–15). UNID.',
       link: '',
     },
     {
       referencia:
-        'Cortés, M. L. (Ed.). (2000). Luces, cámara, acción: textos de cine y televisión. Editorial de la Universidad de Costa Rica.',
+        'Fernández Díez, F., & Barco, C. (2009). Producción cinematográfica: Del proyecto al producto. Funiber.',
       link: '',
     },
     {
       referencia:
-        'Lozano Botache, J. P. (2013). Narraciones cinematográficas: potencialidades pedagógicas y de investigación cualitativa, desde el cine colombiano [Tesis doctoral, Universidad del Cauca]. Repositorio Unicauca.',
+        'Kerlow, I. (2009). The art of 3D computer animation and effects (4th ed.). Wiley.',
       link: '',
     },
     {
       referencia:
-        'Montero Miguel, R. (2014). Administración de servicios de transferencia de archivos y contenidos multimedia. Ra-Ma.',
+        'Real Academia Española. (2020). Componer. En Diccionario de la lengua española.',
       link: '',
     },
     {
       referencia:
-        'Morville, P., y Rosenfeld, L. (1998). Information architecture for the World Wide Web. O’Reilly.',
+        'Sánchez Navarro, J. (2006). Narrativa audiovisual. Editorial UOC.',
       link: '',
     },
     {
-      referencia:
-        'Ordóñez, C. A. (2005). Formatos de imagen digital. Revista Digital Universitaria, 5(7), 1-10.',
-      link: 'http://www.revista.unam.mx/vol.6/num5/art50/may_art50.pdf',
-    },
-    {
-      referencia:
-        'R. M. (2014, julio 2). Los modos de color en diseño gráfico.',
+      referencia: 'Universidad Siglo 21. (2019). Interfaz de After Effects.',
       link:
-        'https://blog.agencialanave.com/los-modos-de-color-en-diseno-grafico/',
+        'https://pensamientodigital.files.wordpress.com/2019/03/interfaz.pdf',
     },
     {
       referencia:
-        'Racionero, A. (2008). El lenguaje cinematográfico. Editorial UOC.',
+        'Velázquez Perea, L. E. (2018). Animación de gráficos con Adobe Animate CC: Ejercicios prácticos.',
       link: '',
-    },
-    {
-      referencia:
-        'Real Academia Española. (s. f.). Diccionario de la lengua española (23.ª ed.).',
-      link: 'https://dle.rae.es',
-    },
-    {
-      referencia:
-        'Shum, Y. M. (2021). Situación global mobile 2020: 5.190 millones de usuarios únicos.',
-      link: 'https://yiminshum.com/mobile-movil-app-2020/',
-    },
-    {
-      referencia:
-        'Viveros, M. A. T. (2005). Introducción a la creación de imágenes digitales para multimedia interactivo.',
-      link:
-        'https://programas.cuaed.unam.mx/repositorio/moodle/pluginfile.php/1161/mod_resource/content/1/contenido/index.html',
     },
   ],
   creditos: [
