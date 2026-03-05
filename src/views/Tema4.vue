@@ -6,14 +6,65 @@
       .titulo-principal__numero
         span 4
       h1 Pensamiento innovador y tendencias en la animación
-    
-    
-    separador
+    p En un contexto de transformación tecnológica constante, resulta fundamental mantenerse actualizado frente a los desarrollos que impactan los distintos ámbitos de la sociedad. La animación y las tecnologías asociadas no son la excepción. Adoptar una perspectiva innovadora implica identificar oportunidades de mejora y proponer soluciones que respondan a necesidades concretas, tanto en el entorno local como global.
+    p.mb-5 Se considera que una propuesta es innovadora cuando posee potencial de usufructo y rentabilidad, al mismo tiempo que da respuesta a una necesidad identificable. En el campo de la animación, la innovación se manifiesta en nuevas aplicaciones, formatos y experiencias interactivas que transforman la manera en que las audiencias interactúan con el contenido digital.
+
     
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.1 Aplicaciones más recientes de la animación
-    
+
    
+    p Las tendencias actuales evidencian una integración creciente entre animación, comunicación digital, análisis de datos y experiencias inmersivas. Estas aplicaciones no solo cumplen una función estética, sino también estratégica en términos de posicionamiento, narrativa y experiencia de usuario.
+
+    .bg-full-width.bg-fondo-slider.mb-4
+      .p-4.p-lg-5
+        SlyderA(tipo="b").bg-color-white.p-4.tarjeta
+          .row.justify-content-center.align-items-center.p-3.p-lg-4
+            .col-lg-5.mb-3.mb-lg-0.order-lg-2
+              figure
+                img(src='@/assets/curso/tema4/2.png', alt='')
+            .col-lg-5.mb-4.mb-md-0.order-lg-1
+              h4 Fondos y gráficos animados
+              p.mb-0 Se han convertido en una carta de presentación clave para páginas web, especialmente en sectores como tecnología, ecommerce y educación en línea. Aportan dinamismo, modernidad y refuerzan la identidad visual del sitio, mejorando la experiencia de navegación.
+          .row.justify-content-center.align-items-center.p-3.p-lg-4
+            .col-lg-5.mb-3.mb-lg-0.order-lg-2
+              figure
+                img(src='@/assets/curso/tema4/3.png', alt='')
+            .col-lg-5.mb-4.mb-md-0.order-lg-1
+              h4 Logos animados
+              p.mb-0 Cada vez más marcas implementan versiones animadas de sus logotipos para fortalecer su identidad y personalidad corporativa. Un logotipo animado en 3D puede transmitir modernidad, dinamismo y cercanía, diferenciando a la marca en entornos digitales competitivos.
+          .row.justify-content-center.align-items-center.p-3.p-lg-4
+            .col-lg-5.mb-3.mb-lg-0.order-lg-2
+              figure
+                img(src='@/assets/curso/tema4/4.png', alt='')
+            .col-lg-5.mb-4.mb-md-0.order-lg-1
+              h4 Surrealismo digital
+              p.mb-0 Tendencia que propone animaciones impactantes e inesperadas, como evaporación de objetos, apariciones mágicas, burbujas que no explotan o transformaciones imposibles. Estas propuestas amplían los límites de la representación realista y potencian la creatividad conceptual.
+          .row.justify-content-center.align-items-center.p-3.p-lg-4
+            .col-lg-5.mb-3.mb-lg-0.order-lg-2
+              figure
+                img(src='@/assets/curso/tema4/5.png', alt='')
+            .col-lg-5.mb-4.mb-md-0.order-lg-1
+              h4 Live Data
+              p.mb-0 La animación de datos facilita la comprensión de gráficos e información estadística. Al incorporar movimiento, se incrementa el interés y el tiempo de permanencia del usuario en páginas web o presentaciones digitales, fortaleciendo la comunicación de información compleja.
+          .row.justify-content-center.align-items-center.p-3.p-lg-4
+            .col-lg-5.mb-3.mb-lg-0.order-lg-2
+              figure
+                img(src='@/assets/curso/tema4/6.png', alt='')
+            .col-lg-5.mb-4.mb-md-0.order-lg-1
+              h4 Infografías animadas
+              p.mb-0 Permiten presentar información de manera dinámica y estructurada, combinando imágenes, texto y datos bajo estrategias de storytelling. Esta integración favorece la comprensión y genera mayor involucramiento del usuario con el contenido.
+          .row.justify-content-center.align-items-center.p-3.p-lg-4
+            .col-lg-5.mb-3.mb-lg-0.order-lg-2
+              figure
+                img(src='@/assets/curso/tema4/7.png', alt='')
+            .col-lg-5.mb-4.mb-md-0.order-lg-1
+              h4 Texto en movimiento
+              p.mb-0 Recurso sencillo y eficaz para captar la atención en entornos digitales. El movimiento tipográfico aporta énfasis, jerarquía y dinamismo en presentaciones, redes sociales y plataformas web.
+    p.mb-5 La diversidad de técnicas demuestra que la animación no es un procedimiento único, sino un campo interdisciplinar en constante transformación. Cada técnica responde a contextos tecnológicos, estéticos y narrativos específicos, ampliando las posibilidades creativas del lenguaje audiovisual. 
+   
+
+
 
 </template>
 

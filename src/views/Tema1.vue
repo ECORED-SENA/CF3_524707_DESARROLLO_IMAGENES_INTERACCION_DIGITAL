@@ -77,7 +77,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         LineaTiempoD.color-secundario
-          p.row(numero="1906" titulo="Fases humorísticas de caras divertidas – Stuart Blackton") Considerada una de las primeras animaciones registradas en celuloide. Blackton utilizó un tablero y tiza para dibujar rostros que se borraban y redibujaban levemente desplazados en cada fotograma. Esta técnica generaba la ilusión de movimiento mediante la sucesión de imágenes estáticas.
+          p.row(numero="1906" titulo="Fases humorísticas de caras divertidas - Stuart Blackton") Considerada una de las primeras animaciones registradas en celuloide. Blackton utilizó un tablero y tiza para dibujar rostros que se borraban y redibujaban levemente desplazados en cada fotograma. Esta técnica generaba la ilusión de movimiento mediante la sucesión de imágenes estáticas.
 
           p(numero="Años 20" titulo="Felix the Cat y Gertie the Dinosaur") Estas producciones introdujeron una trama estructurada, narrativa lógica y personajes con personalidad definida. Además, incorporaron el uso sistemático de fotogramas clave (keyframes), consolidando principios técnicos fundamentales en la animación tradicional.
 
