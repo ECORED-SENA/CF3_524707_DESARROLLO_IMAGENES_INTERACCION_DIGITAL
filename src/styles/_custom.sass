@@ -187,19 +187,21 @@ figcaption
 
 /////////////ACORDION/////////////
 .acordion__accion__btn--a
-  background-color: #FFAA00 !important
-  color: $color-sistema-texto
+  background-color: $color-acento-botones
+.acordeonA
+  position: relative
+  background-color: #E9D8F5
+  width: 100%
+  @media screen and (max-width: 1200px)
+    width: 100%
+  p
+    padding-left: 3.5rem
 .acordion__activo
-  background-color:  #F5F4A4 !important
-.acordion_titulo
-  color: #fff !important
-.acordion__titulo 
+  background-color: #F5F4A4
   h3
-    color: $color-sistema-texto  !important
-.acordion__activo
-  .acordion__titulo 
-    h3
-      color: $color-sistema-texto !important
+    color: $color-sistema-texto !important
+  p
+    padding-left: 3.5rem
     
 ///////////////TABLAS/////////////////// 
 .tbl
@@ -219,35 +221,43 @@ figcaption
   width: 100%
 
 
+  
 .linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  background-color: #F5F4A4 !important
-
+  background-color: $color-acento-contenido
 .linea-tiempo-d__item__number
+  background-color: #F5F4A4
   min-width: 150px
-
-.tarjeta--gris
-    background-color: #CFF1EF
-
+  @media screen and (max-width: 768px)
+    min-width: 110px !important
+.linea-tiempo-d__item__number:hover
+  background-color: $color-acento-contenido !important
 .linea-tiempo-d__item__content__title
-  height: 60px
-
+  background-color: #F5F4A4
+  transition: background-color 0.3s ease-in-out
+  border-top-left-radius: 10px
+  border-top-right-radius: 10px
+  @media screen and (max-width: 768px)
+    height: 80px
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  background-color: #CFF1EF !important
 .linea-tiempo-d__item__content__slot
-  background-color: #F5F4A4 
-
-.linea-tiempo-d__item__content__title .linea-tiempo-d__item--selected
-  background-color: #F5F4A4 !important
-
+  background-color: #CFF1EF
+  border-bottom-left-radius: 10px
+  border-bottom-right-radius: 10px
 
 
+.caja-tema-1
+  background-color: #F4EBFA
+  padding-right: 1rem
+  img
+    margin-left: -0.8rem !important
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
 
-
-
-
-
-
-
-
-
-
-.caja-3
-  Background_Color: #CFF1EF 
+.caja-tema-3
+  background-color: #CFF1EF 
+  padding: 1.5rem
+  border-radius: 14px
+.movil_1
+  @media screen and (max-width: 1200px)
+    margin-top: 1rem !important
