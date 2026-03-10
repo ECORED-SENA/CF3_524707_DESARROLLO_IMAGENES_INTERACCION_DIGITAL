@@ -10,7 +10,7 @@
     p.mb-5 La animación surge a partir de una idea que busca materializarse en una pieza audiovisual. El contenido, la forma, el tipo y la duración dependen del público al que se dirige. Su desarrollo implica varias etapas: creación del storyboard, diseño de personajes, elaboración del guion literario y técnico, hasta llegar a la producción final. Conocer su evolución histórica permite comprender los fundamentos técnicos, narrativos y tecnológicos que configuran la animación contemporánea. Por lo anterior, lo invitamos a profundizar y conocer la historia de la animación que le brinda elementos determinantes, para comprender lo que es hoy día la animación:
     
     .video.mb-1
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/zstU0kg3VfM?si=IHT6R9E3aCxIVBas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     figcaption Video: Leyenda del video
 
     Separador
