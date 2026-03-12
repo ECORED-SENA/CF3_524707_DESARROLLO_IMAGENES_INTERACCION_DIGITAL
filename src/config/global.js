@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Fundamentos de la animación',
+    Name: 'Desarrollo de imágenes para la interacción digital',
     Description:
-      'Elementos estáticos, inanimados, que se presentan en secuencias rápidas que cobran “vida”, cuentan historias y transmiten sentimientos, eso es la animación. En la actualidad la animación es un negocio que mueve millones de dólares al año, a nivel mundial se destacan la industria americana, japonesa y europea. Por lo anterior, en el presente componente se abordan los elementos centrales para la comprensión del tema.',
+      'Elementos estáticos, inanimados, que se presentan en secuencias rápidas que cobran “vida”, cuentan historias y transmiten sentimientos, eso es la animación. En la actualidad, la animación es un negocio que mueve millones de dólares al año; a nivel mundial, se destacan la industria americana, japonesa y europea. Por lo anterior, en el presente componente se abordan los elementos centrales para la comprensión del tema.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -160,7 +160,7 @@ export default {
     {
       termino: '<em>Animatic</em>',
       significado:
-        'es la versión animada del storyboard. No debe ser tan minuciosa, solo para detallar lo que no se pudo ver en el paso anterior.',
+        'es la versión animada del <em>storyboard</em>. No debe ser tan minuciosa, solo para detallar lo que no se pudo ver en el paso anterior.',
     },
     {
       termino: '<em>Animation</em>',
@@ -170,7 +170,7 @@ export default {
     {
       termino: '<em>Compositing</em>',
       significado:
-        'dentro de una animación existen diversas capas; el objetivo del compositing es agruparlas todas para convertirlas en una pieza individual donde todas las escenas trabajen en conjunto.',
+        'dentro de una animación existen diversas capas; el objetivo del <em>compositing</em> es agruparlas todas para convertirlas en una pieza individual donde todas las escenas trabajen en conjunto.',
     },
     {
       termino: '<em>Concept art</em>',
@@ -183,7 +183,7 @@ export default {
     {
       termino: '<em>Keyframes/Keys</em>',
       significado:
-        'son las posiciones más importantes dentro de una escena. Dentro de un software son los puntos que se establecen en el timeline para posicionar cambios de posición, escala, entre otros.',
+        'son las posiciones más importantes dentro de una escena. Dentro de un <em>software</em> son los puntos que se establecen en el <em>timeline</em> para posicionar cambios de posición, escala, entre otros.',
     },
     {
       termino: '<em>Layout</em>',
@@ -193,7 +193,7 @@ export default {
     {
       termino: 'Pixilación',
       significado:
-        'es una variante del stop motion, con la particularidad de que se utilizan personas.',
+        'es una variante del <em>stop motion</em>, con la particularidad de que se utilizan personas.',
     },
     {
       termino: 'Postproducción',
@@ -203,7 +203,7 @@ export default {
     {
       termino: 'Preproducción',
       significado:
-        'etapa anterior a la producción en la cual se prepara el material, como diseño, color script, animatic y storyboard.',
+        'etapa anterior a la producción en la cual se prepara el material, como diseño, color <em>script</em>, <em>animatic</em> y <em>storyboard</em>.',
     },
     {
       termino: 'Producción',

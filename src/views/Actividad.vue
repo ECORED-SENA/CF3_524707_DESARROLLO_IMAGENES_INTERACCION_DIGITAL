@@ -120,7 +120,7 @@ export default {
         {
           id: 4,
           texto:
-            '¿Cuál fue la primera película animada totalmente digital producida por Pixar?',
+            '¿Cuál fue la primera película animada totalmente digital producida por <em>Pixar</em>?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -131,17 +131,18 @@ export default {
             },
             {
               id: 'b',
-              texto: '¿Quién engañó a Roger Rabbit?.',
+              texto: '¿Quién engañó a <em>Roger Rabbit</em>?',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Toy Story producida en mil novecientos noventa y cinco.',
+              texto:
+                '<em>Toy Story</em> producida en mil novecientos noventa y cinco.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Merrie Melodies de Warner Brothers.',
+              texto: '<em>Merrie Melodies</em> de <em>Warner Brothers</em>.',
               esCorrecta: false,
             },
           ],
@@ -202,7 +203,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'El stop motion con objetos reales.',
+              texto: 'El <em>stop motion</em> con objetos reales.',
               esCorrecta: true,
             },
           ],
@@ -481,7 +482,7 @@ export default {
         {
           id: 16,
           texto:
-            '¿Qué técnica utiliza personas reales como variante del stop motion?',
+            '¿Qué técnica utiliza personas reales como variante del <em>stop motion</em>?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [

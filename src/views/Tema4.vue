@@ -32,7 +32,7 @@
                 img(src='@/assets/curso/tema4/2.png', alt='' style="max-width: 500px").m-auto
             .col-lg-5.mb-4.mb-md-0.order-lg-1
               h4 Fondos y gráficos animados
-              p.mb-0 Se han convertido en una carta de presentación clave para páginas web, especialmente en sectores como tecnología, ecommerce y educación en línea. Aportan dinamismo, modernidad y refuerzan la identidad visual del sitio, mejorando la experiencia de navegación.
+              p.mb-0 Se han convertido en una carta de presentación clave para páginas <em>web</em>, especialmente en sectores como tecnología, ecommerce y educación en línea. Aportan dinamismo, modernidad y refuerzan la identidad visual del sitio, mejorando la experiencia de navegación.
           .row.justify-content-center.align-items-center.p-3.p-lg-4
             .col-lg-5.mb-3.mb-lg-0.order-lg-2
               figure.d-none.d-xl-block
@@ -52,7 +52,7 @@
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/tema4/5.png', alt='' style="max-width: 500px").m-auto
             .col-lg-5.mb-4.mb-md-0.order-lg-1
-              h4 Live Data
+              h4 <em>Live Data</em>
               p.mb-0 La animación de datos facilita la comprensión de gráficos e información estadística. Al incorporar movimiento, se incrementa el interés y el tiempo de permanencia del usuario en páginas web o presentaciones digitales, fortaleciendo la comunicación de información compleja.
           .row.justify-content-center.align-items-center.p-3.p-lg-4
             .col-lg-5.mb-3.mb-lg-0.order-lg-2
@@ -60,15 +60,15 @@
                 img(src='@/assets/curso/tema4/6.png', alt='' style="max-width: 500px").m-auto
             .col-lg-5.mb-4.mb-md-0.order-lg-1
               h4 Infografías animadas
-              p.mb-0 Permiten presentar información de manera dinámica y estructurada, combinando imágenes, texto y datos bajo estrategias de storytelling. Esta integración favorece la comprensión y genera mayor involucramiento del usuario con el contenido.
+              p.mb-0 Permiten presentar información de manera dinámica y estructurada, combinando imágenes, texto y datos bajo estrategias de <em>storytelling</em>. Esta integración favorece la comprensión y genera mayor involucramiento del usuario con el contenido.
           .row.justify-content-center.align-items-center.p-3.p-lg-4
             .col-lg-5.mb-3.mb-lg-0.order-lg-2
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/tema4/7.png', alt='' style="max-width: 500px").m-auto
             .col-lg-5.mb-4.mb-md-0.order-lg-1
               h4 Texto en movimiento
-              p.mb-0 Recurso sencillo y eficaz para captar la atención en entornos digitales. El movimiento tipográfico aporta énfasis, jerarquía y dinamismo en presentaciones, redes sociales y plataformas web.
-    p.mb-0 La diversidad de técnicas demuestra que la animación no es un procedimiento único, sino un campo interdisciplinar en constante transformación. Cada técnica responde a contextos tecnológicos, estéticos y narrativos específicos, ampliando las posibilidades creativas del lenguaje audiovisual. 
+              p.mb-0 Recurso sencillo y eficaz para captar la atención en entornos digitales. El movimiento tipográfico aporta énfasis, jerarquía y dinamismo en presentaciones, redes sociales y plataformas <em>web</em>.
+    p.mb-0 Las tendencias descritas evidencian que la animación ha trascendido el ámbito cinematográfico para integrarse en estrategias de comunicación digital, mercadeo, educación y análisis de datos. El pensamiento innovador en este campo exige comprender las necesidades del contexto, explorar nuevas tecnologías y articular creatividad con funcionalidad.
    
 </template>
 

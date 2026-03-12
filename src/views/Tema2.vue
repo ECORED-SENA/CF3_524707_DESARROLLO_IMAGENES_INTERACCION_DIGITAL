@@ -9,7 +9,7 @@
 
     .row.align-items-center.mb-5
       .col-lg
-        p.mb-3 Desde su origen, la animación ofreció a artistas y creadores audiovisuales múltiples posibilidades expresivas. En las historietas de Estados Unidos permitió dar “vida” a los personajes de las tiras cómicas mediante los dibujos animados; en la pintura y la ilustración hizo posible desarrollar historias en el tiempo; en la música facilitó la sincronización precisa entre imagen y sonido; y en el cine abrió un campo amplio para la experimentación y la creación de efectos especiales.
+        p.mb-3 Desde su origen, la animación ofreció a artistas y creadores audiovisuales múltiples posibilidades expresivas. En las historietas de Estados Unidos, permitió dar “vida” a los personajes de las tiras cómicas mediante los dibujos animados; en la pintura y la ilustración, hizo posible desarrollar historias en el tiempo; en la música, facilitó la sincronización precisa entre imagen y sonido; y en el cine, abrió un campo amplio para la experimentación y la creación de efectos especiales.
         .row.align-items-center.m-0.caja-tema-1(data-aos="zoom-in")
           .col-lg-auto
             figure.d-none.d-xl-block
@@ -34,49 +34,49 @@
                 img(src='@/assets/curso/tema2/1.png', alt='' style="max-width: 500px").m-auto
             .col-lg-5.mb-4.mb-md-0.order-lg-1
               h4 Animación tradicional
-              p.mb-0 Para comprender el origen del proceso de animación tal como se conoce hoy, es necesario referirse al Flipbook, inventado por John Barnes Linnett en 1868. Consistía en un libro donde se dibujaba página a página una escena que, al pasar rápidamente las hojas, generaba la sensación de movimiento. La animación clásica mantiene este mismo principio: dibujar manualmente cada fotograma en papel o acetato. Los personajes y escenarios se desarrollan en dos dimensiones (X y Y), y la profundidad se logra mediante perspectiva, color, luces y sombras, entre otros recursos gráficos.
+              p.mb-0 Para comprender el origen del proceso de animación tal como se conoce hoy, es necesario referirse al <em>Flipbook</em>, inventado por John Barnes Linnett en 1868. Consistía en un libro donde se dibujaba página a página una escena que, al pasar rápidamente las hojas, generaba la sensación de movimiento. La animación clásica mantiene este mismo principio: dibujar manualmente cada fotograma en papel o acetato. Los personajes y escenarios se desarrollan en dos dimensiones (X y Y), y la profundidad se logra mediante perspectiva, color, luces y sombras, entre otros recursos gráficos.
           .row.justify-content-center.align-items-center.p-3.p-lg-4
             .col-lg-5.mb-3.mb-lg-0.order-lg-2
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/tema2/2.png', alt='' style="max-width: 500px").m-auto
             .col-lg-5.mb-4.mb-md-0.order-lg-1
               h4 Animación 2D
-              p.mb-0 Considerada una evolución directa de la animación tradicional, se basa en la creación de personajes y fondos en dos dimensiones. Inicialmente realizada a mano, con la llegada del computador el proceso migró a programas especializados. En la década de 1990, los estudios comenzaron a escanear dibujos para digitalizar etapas como delineado, colorización, aplicación de efectos y generación de movimiento, transformando sustancialmente esta técnica.
+              p.mb-0 Considerada una evolución directa de la animación tradicional, se basa en la creación de personajes y fondos en dos dimensiones. Inicialmente realizada a mano, con la llegada del computador, el proceso migró a programas especializados. En la década de 1990, los estudios comenzaron a escanear dibujos para digitalizar etapas como delineado, colorización, aplicación de efectos y generación de movimiento, transformando sustancialmente esta técnica.
           .row.justify-content-center.align-items-center.p-3.p-lg-4
             .col-lg-5.mb-3.mb-lg-0.order-lg-2
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/tema2/3.png', alt='' style="max-width: 500px").m-auto
             .col-lg-5.mb-4.mb-md-0.order-lg-1
-              h4 Stop Motion
-              p.mb-0 Técnica en la que se manipulan físicamente objetos para simular que se mueven de forma autónoma. El procedimiento consiste en fotografiar el objeto, moverlo levemente y volver a fotografiarlo, repitiendo el proceso hasta completar la secuencia. Se emplean muñecos de trapo, plastilina, recortes de papel, arcilla u otros objetos inanimados. El director Tim Burton utilizó esta técnica en The Nightmare Before Christmas (1993), producción que tardó tres años en realizarse, contó con 227 marionetas y tuvo un costo aproximado de 20 millones de dólares.
+              h4 <em>Stop Motion</em>
+              p.mb-0 Técnica en la que se manipulan físicamente objetos para simular que se mueven de forma autónoma. El procedimiento consiste en fotografiar el objeto, moverlo levemente y volver a fotografiarlo, repitiendo el proceso hasta completar la secuencia. Se emplean muñecos de trapo, plastilina, recortes de papel, arcilla u otros objetos inanimados. El director Tim Burton utilizó esta técnica en <em>The Nightmare Before Christmas</em> (1993), producción que tardó tres años en realizarse, contó con 227 marionetas y tuvo un costo aproximado de 20 millones de dólares.
           .row.justify-content-center.align-items-center.p-3.p-lg-4
             .col-lg-5.mb-3.mb-lg-0.order-lg-2
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/tema2/4.png', alt='' style="max-width: 500px").m-auto
             .col-lg-5.mb-4.mb-md-0.order-lg-1
-              h4 Animación tipográfica y Motion Graphics
-              p.mb-0 Consiste en generar la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños gráficos en un producto audiovisual. Se emplea en videos corporativos, posproducción audiovisual, presentaciones interactivas y logotipos. Aunque actualmente se desarrolla con herramientas digitales, comenzó a utilizarse de forma análoga en la década de 1960. El término fue acuñado por John Whitney, quien trabajó en Vértigo (1958) de Alfred Hitchcock y fundó Motion Graphics Inc. El diseñador Saul Bass también realizó aportes significativos en créditos cinematográficos como Ciudadano Kane y West Side Story, integrando animación de recortes, montaje, acción real y diseño tipográfico.
+              h4 Animación tipográfica y <em>Motion Graphics</em>
+              p.mb-0 Consiste en generar la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños gráficos en un producto audiovisual. Se emplea en videos corporativos, posproducción audiovisual, presentaciones interactivas y logotipos. Aunque actualmente se desarrolla con herramientas digitales, comenzó a utilizarse de forma análoga en la década de 1960. El término fue acuñado por John Whitney, quien trabajó en Vértigo (1958) de <em>Alfred Hitchcock</em> y fundó <em>Motion Graphics Inc.</em> El diseñador Saul Bass también realizó aportes significativos en créditos cinematográficos como <em>Ciudadano Kane</em> y <em>West Side Story</em>, integrando animación de recortes, montaje, acción real y diseño tipográfico.
           .row.justify-content-center.align-items-center.p-3.p-lg-4
             .col-lg-5.mb-3.mb-lg-0.order-lg-2
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/tema2/5.png', alt='' style="max-width: 500px").m-auto
             .col-lg-5.mb-4.mb-md-0.order-lg-1
               h4 Rotoscopia
-              p.mb-0 Técnica que combina grabación en vivo con dibujo animado. Consiste en calcar o reinterpretar las acciones de un actor real, ilustrando un personaje sobre cada fotograma de la filmación. También puede implicar la creación completa de un personaje animado que interactúa con el actor real, dejando espacio en el encuadre para su integración posterior. Ejemplos destacados incluyen ¿Quién engañó a Roger Rabbit? (1988) y Moonwalker (1988)), donde actores reales interactúan con dibujos animados.
+              p.mb-0 Técnica que combina grabación en vivo con dibujo animado. Consiste en calcar o reinterpretar las acciones de un actor real, ilustrando un personaje sobre cada fotograma de la filmación. También puede implicar la creación completa de un personaje animado que interactúa con el actor real, dejando espacio en el encuadre para su integración posterior. Ejemplos destacados incluyen ¿Quién engañó a <em>Roger Rabbit</em>? (1988) y <em>Moonwalker</em> (1988), donde actores reales interactúan con dibujos animados.
           .row.justify-content-center.align-items-center.p-3.p-lg-4
             .col-lg-5.mb-3.mb-lg-0.order-lg-2
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/tema2/6.png', alt='' style="max-width: 500px").m-auto
             .col-lg-5.mb-4.mb-md-0.order-lg-1
               h4 Pixilación
-              p.mb-0 Variante del Stop Motion en la que personas reales y objetos son fotografiados repetidamente, desplazándolos ligeramente entre cada toma. Al organizar las imágenes en secuencia, se genera una percepción surrealista del entorno real, alterando aparentemente las leyes físicas. El pionero de esta técnica fue Norman McLaren con el cortometraje Neighbours (1952).
+              p.mb-0 Variante del <em>Stop Motion</em> en la que personas reales y objetos son fotografiados repetidamente, desplazándolos ligeramente entre cada toma. Al organizar las imágenes en secuencia, se genera una percepción surrealista del entorno real, alterando aparentemente las leyes físicas. El pionero de esta técnica fue <em>Norman McLaren</em> con el cortometraje <em>Neighbours</em> (1952).
           .row.justify-content-center.align-items-center.p-3.p-lg-4
             .col-lg-5.mb-3.mb-lg-0.order-lg-2
               figure.d-none.d-xl-block
                 img(src='@/assets/curso/tema2/7.png', alt='' style="max-width: 500px").m-auto
             .col-lg-5.mb-4.mb-md-0.order-lg-1
               h4 Animación 3D
-              p.mb-0 Consiste en la manipulación y movimiento digital de objetos tridimensionales definidos por ancho (X), alto (Y) y profundidad (Z) dentro de un espacio virtual. El proceso inicia con el modelado digital de personajes y escenarios. Posteriormente, se integra un sistema de esqueleto mediante Rigging, que permite manipular la malla. El movimiento se estructura a través de fotogramas clave o keyframes, y el sistema genera automáticamente los fotogramas intermedios para lograr fluidez. La calidad final depende de la experticia del modelador y animador, así como del tratamiento de iluminación, texturización y efectos visuales y físicos. La animación 3D busca representar en el entorno digital, con la mayor fidelidad posible, factores físicos y estéticos del mundo real o crear escenarios imposibles. Además, ha impulsado desarrollos como Motion Capture, Realidad Virtual y Realidad Aumentada.
+              p.mb-0 Consiste en la manipulación y movimiento digital de objetos tridimensionales definidos por ancho (X), alto (Y) y profundidad (Z) dentro de un espacio virtual. El proceso inicia con el modelado digital de personajes y escenarios. Posteriormente, se integra un sistema de esqueleto mediante <em>Rigging</em>, que permite manipular la malla. El movimiento se estructura a través de fotogramas clave o <em>keyframes</em>, y el sistema genera automáticamente los fotogramas intermedios para lograr fluidez. La calidad final depende de la experticia del modelador y animador, así como del tratamiento de iluminación, texturización y efectos visuales y físicos. La animación 3D busca representar en el entorno digital, con la mayor fidelidad posible, factores físicos y estéticos del mundo real o crear escenarios imposibles. Además, ha impulsado desarrollos como <em>Motion Capture</em>, realidad Virtual y realidad aumentada.
    
     p.mb-0 La diversidad de técnicas demuestra que la animación no es un procedimiento único, sino un campo interdisciplinar en constante transformación. Cada técnica responde a contextos tecnológicos, estéticos y narrativos específicos, ampliando las posibilidades creativas del lenguaje audiovisual.
 
@@ -84,7 +84,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2 Principios de la animación
 
-    p.mb-5 Los principios de la animación son doce (12). Fueron desarrollados en la década de 1930 por los estudios Disney ante la necesidad de establecer un lenguaje común entre animadores y técnicos. Posteriormente fueron sistematizados por Frank Thomas y Ollie Johnston. Estos principios se fundamentan en las leyes de la física y en el comportamiento orgánico del movimiento, con el objetivo de otorgar a los personajes mayor realismo físico y emocional. A continuación, se presentan los doce principios con su respectiva explicación técnica y conceptual
+    p.mb-5 Los principios de la animación son doce (12). Fueron desarrollados en la década de 1930 por los estudios <e>Disney</e> ante la necesidad de establecer un lenguaje común entre animadores y técnicos. Posteriormente, fueron sistematizados por Frank Thomas y Ollie Johnston. Estos principios se fundamentan en las leyes de la física y en el comportamiento orgánico del movimiento, con el objetivo de otorgar a los personajes mayor realismo físico y emocional. A continuación, se presentan los doce principios con su respectiva explicación técnica y conceptual.
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -133,17 +133,17 @@
                     figure(data-aos="zoom-in")
                       img(src='@/assets/curso/tema2/GIF/4.gif', alt='Cuadro animado comparativo que representa secuencia continua y construcción por fotogramas clave. ')
 
-                .row(titulo="Overlapping (Acción continuada y superpuesta)")
+                .row(titulo="<em>Overlapping</em> (Acción continuada y superpuesta)")
                   .col-md-8.mb-4.mb-md-0
                     p.mb-0 Se basa en que las acciones no se detienen de manera simultánea en todas las partes de un sistema. Cuando el cuerpo concluye un movimiento, sus partes continúan desplazándose debido a la inercia. Los elementos se mueven de forma asincrónica, respetando una jerarquía en la concatenación de acciones.
                   .col-md-4
                     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                       h5 Figura 5.
-                      span Overlapping
+                      span <em>Overlapping</em>
                     figure(data-aos="zoom-in")
                       img(src='@/assets/curso/tema2/GIF/5.gif', alt='Figura que representa movimiento  que continúan desplazándose por inercia. ')
 
-                .row(titulo="Easy In & Easy Out (Entradas y salidas suaves)")
+                .row(titulo="<em>Easy In & Easy Out</em> (Entradas y salidas suaves)")
                   .col-md-8.mb-4.mb-md-0
                     p.mb-0 Propone que los movimientos inicien y finalicen de manera progresiva. Responde a factores físicos como gravedad, resistencia, tensión y fricción. La aceleración y desaceleración gradual generan naturalidad y coherencia orgánica en la animación.
                   .col-md-4
@@ -173,13 +173,13 @@
                     figure(data-aos="zoom-in")
                       img(src='@/assets/curso/tema2/GIF/8.gif', alt='Cuadro animado  que representa movimiento complementario que refuerza la acción principal. ')
 
-                .row(titulo="Timing (Ritmo)")
+                .row(titulo="<em>Timing</em> (Ritmo)")
                   .col-md-8.mb-4.mb-md-0
                     p.mb-0 El número de dibujos o fotogramas empleados en un movimiento determina su duración en pantalla. Esto influye directamente en la percepción emocional e intencional del personaje, ya que un movimiento rápido o lento comunica estados distintos.
                   .col-md-4
                     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                       h5 Figura 9.
-                      span Timing (Ritmo)
+                      span <em>Timing</em> (Ritmo)
                     figure(data-aos="zoom-in")
                       img(src='@/assets/curso/tema2/GIF/9.gif', alt='Cuadro animado que representa el timing o ritmo en la animación. ')
 
@@ -203,13 +203,13 @@
                     figure(data-aos="zoom-in")
                       img(src='@/assets/curso/tema2/GIF/11.gif', alt='Cuadro animado que representa volumen, equilibrio y perspectiva en un personaje.')
 
-                .row(titulo=" Appeal (Atractivo)")
+                .row(titulo=" <em>Appeal</em> (Atractivo)")
                   .col-md-8.mb-4.mb-md-0
                     p.mb-0 Hace referencia a la personalidad y carisma del personaje. Deriva del significado etimológico de animación como “dar alma” o “dar vida”. El animador debe dotar al personaje de solidez y atractivo suficientes para generar y sostener conexión emocional con el espectador, definiendo su forma de ser, moverse y expresar emociones.
                   .col-md-4
                     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                       h5 Figura 12.
-                      span Appeal (Atractivo)
+                      span <em>Appeal</em> (Atractivo)
                     figure(data-aos="zoom-in")
                       img(src='@/assets/curso/tema2/GIF/12.gif', alt='Cuadro animado que representa diseño de personaje con rasgos expresivos y carismáticos. ')
 
