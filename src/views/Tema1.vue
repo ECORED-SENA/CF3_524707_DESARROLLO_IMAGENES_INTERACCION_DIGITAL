@@ -63,34 +63,97 @@
           h4 Praxinoscopio - Émile Reynaud
           p Artefacto basado en los mismos principios del zootropo, pero sustituye las rendijas por un sistema de espejos ubicados en el centro del cilindro. Esto permite una percepción más clara y estable de la secuencia animada.    
   
-    p.mb-0 Estos antecedentes consolidaron el principio fundamental de la animación: la sucesión organizada de imágenes estáticas para producir la sensación de movimiento continuo.
+    p.mb-5 Estos antecedentes consolidaron el principio fundamental de la animación: la sucesión organizada de imágenes estáticas para producir la sensación de movimiento continuo.
         
-    Separador 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2.	Consolidación cinematográfica y evolución tecnológica de la animación
         
-    p.mb-5 Con la incorporación del registro en celuloide y el desarrollo del lenguaje cinematográfico, la animación dejó de ser un experimento óptico para convertirse en un medio narrativo con identidad propia. Durante el siglo XX y XXI, los avances técnicos transformaron tanto su dimensión artística como industrial. A continuación, se presentan los principales hitos organizados cronológicamente.
+    p.mb-0 Con la incorporación del registro en celuloide y el desarrollo del lenguaje cinematográfico, la animación dejó de ser un experimento óptico para convertirse en un medio narrativo con identidad propia. Durante el siglo XX y XXI, los avances técnicos transformaron tanto su dimensión artística como industrial. A continuación, se presentan los principales hitos organizados cronológicamente.
 
-    .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5
       .col-lg-10.col-md-12
-        LineaTiempoD.color-secundario
-          p(numero="1906" titulo="Fases humorísticas de caras divertidas - <em>Stuart Blackton</em>") Considerada una de las primeras animaciones registradas en <em>celuloide</em>. <em>Blackton</em> utilizó un tablero y tiza para dibujar rostros que se borraban y redibujaban levemente desplazados en cada fotograma. Esta técnica generaba la ilusión de movimiento mediante la sucesión de imágenes estáticas.
+    LineaTiempoD.color-secundario
+      
+      //- 1906
+      div(numero="1906" titulo="Fases humorísticas de caras divertidas - <em>Stuart Blackton</em>")
+        .row.align-items-center.p-4
+          .col-md-4.mb-3.mb-md-0
+            figure
+              img(src='@/assets/curso/tema1/lt2/img1.png', alt='Fases humorísticas')
+          .col-md-8
+            p.mb-0 Considerada una de las primeras animaciones registradas en <em>celuloide</em>. <em>Blackton</em> utilizó un tablero y tiza para dibujar rostros que se borraban y redibujaban levemente desplazados en cada fotograma. Esta técnica generaba la ilusión de movimiento mediante la sucesión de imágenes estáticas.
 
-          p(numero="Años 20" titulo="Felix <em>the Cat</em> y <em>Gertie the Dinosaur</em>") Estas producciones introdujeron una trama estructurada, narrativa lógica y personajes con personalidad definida. Además, incorporaron el uso sistemático de fotogramas clave (<em>keyframes</em>), consolidando principios técnicos fundamentales en la animación tradicional.
+      //- Años 20
+      div(numero="Años 20" titulo="Felix <em>the Cat</em> y <em>Gertie the Dinosaur</em>")
+        .row.align-items-center.p-4
+          .col-md-4.mb-3.mb-md-0
+            figure
+              img(src='@/assets/curso/tema1/lt2/img2.png', alt='Felix y Gertie')
+          .col-md-8
+            p.mb-0 Estas producciones introdujeron una trama estructurada, narrativa lógica y personajes con personalidad definida. Además, incorporaron el uso sistemático de fotogramas clave (<em>keyframes</em>), consolidando principios técnicos fundamentales en la animación tradicional.
 
-          p(numero="1928" titulo="<em>Steamboat Willie - Walt Disney y Ub Iwerks</em>") Cortometraje considerado pionero en la sincronización total entre sonido y acción en pantalla. Representa el debut oficial de <em>Mickey Mouse</em> y marca un avance determinante en la integración técnica del audio con la animación.
+      //- 1928 (El de tu imagen de referencia)
+      div(numero="1928" titulo="<em>Steamboat Willie - Walt Disney y Ub Iwerks</em>")
+        .row.align-items-center.p-4
+          .col-md-4.mb-3.mb-md-0
+            figure
+              img(src='@/assets/curso/tema1/lt2/img3.png', alt='Steamboat Willie')
+          .col-md-8
+            p.mb-0 Cortometraje considerado pionero en la sincronización total entre sonido y acción en pantalla. Representa el debut oficial de <em>Mickey Mouse</em> y marca un avance determinante en la integración técnica del audio con la animación.
 
-          p(numero="1930–1969" titulo="<em>Merrie Melodies - Warner Brothers</em>") Serie de cortometrajes animados con sonido y color que consolidaron la producción masiva de dibujos animados. Junto con <em>Walt Disney Studios</em>, establecieron el modelo industrial de animación cinematográfica.
+      //- 1930–1969
+      div(numero="1930–1969" titulo="<em>Merrie Melodies - Warner Brothers</em>")
+        .row.align-items-center.p-4
+          .col-md-4.mb-3.mb-md-0
+            figure
+              img(src='@/assets/curso/tema1/lt2/img4.png', alt='Merrie Melodies')
+          .col-md-8
+            p.mb-0 Serie de cortometrajes animados con sonido y color que consolidaron la producción masiva de dibujos animados. Junto con <em>Walt Disney Studios</em>, establecieron el modelo industrial de animación cinematográfica.
 
-          p(numero="1937" titulo="Blancanieves y los siete enanitos - <em>Walt Disney Studios</em>") Primer largometraje animado producido por este estudio. Constituye una innovación técnica y artística al demostrar que la animación podía sostener una narrativa extensa con profundidad emocional y calidad técnica.
+      //- 1937
+      div(numero="1937" titulo="Blancanieves y los siete enanitos - <em>Walt Disney Studios</em>")
+        .row.align-items-center.p-4
+          .col-md-4.mb-3.mb-md-0
+            figure
+              img(src='@/assets/curso/tema1/lt2/img5.png', alt='Blancanieves')
+          .col-md-8
+            p.mb-0 Primer largometraje animado producido por este estudio. Constituye una innovación técnica y artística al demostrar que la animación podía sostener una narrativa extensa con profundidad emocional y calidad técnica.
 
-          p(numero="1988" titulo="¿Quién engañó a <em>Roger Rabbit</em>?") Primer largometraje que combinó de manera integral actores reales con personajes animados dentro de una misma narrativa, integrando técnicas de composición y efectos especiales avanzados para la época.
+      //- 1988
+      div(numero="1988" titulo="¿Quién engañó a <em>Roger Rabbit</em>?")
+        .row.align-items-center.p-4
+          .col-md-4.mb-3.mb-md-0
+            figure
+              img(src='@/assets/curso/tema1/lt2/img6.png', alt='Roger Rabbit')
+          .col-md-8
+            p.mb-0 Primer largometraje que combinó de manera integral actores reales con personajes animados dentro de una misma narrativa, integrando técnicas de composición y efectos especiales avanzados para la época.
 
-          p(numero="1995" titulo="<em>Toy Story – Pixar Animation Studios</em>") Primera película animada realizada en su totalidad mediante medios digitales. Marcó el inicio del predominio de la animación 3D generada por computador en la industria cinematográfica.
+      //- 1995
+      div(numero="1995" titulo="<em>Toy Story – Pixar Animation Studios</em>")
+        .row.align-items-center.p-4
+          .col-md-4.mb-3.mb-md-0
+            figure
+              img(src='@/assets/curso/tema1/lt2/img7.png', alt='Toy Story')
+          .col-md-8
+            p.mb-0 Primera película animada realizada en su totalidad mediante medios digitales. Marcó el inicio del predominio de la animación 3D generada por computador en la industria cinematográfica.
 
-          p(numero="Siglo XXI" titulo="Animación digital realista") La animación 3D orienta su desarrollo hacia la reproducción precisa de dinámicas físicas del mundo real. Cada nueva producción implica avances en <em>software, hardware</em>, simulación de partículas, iluminación y complejidad narrativa.
+      //- Siglo XXI
+      div(numero="Siglo XXI" titulo="Animación digital realista")
+        .row.align-items-center.p-4
+          .col-md-4.mb-3.mb-md-0
+            figure
+              img(src='@/assets/curso/tema1/lt2/img8.png', alt='Animación digital')
+          .col-md-8
+            p.mb-0 La animación 3D orienta su desarrollo hacia la reproducción precisa de dinámicas físicas del mundo real. Cada nueva producción implica avances en <em>software, hardware</em>, simulación de partículas, iluminación y complejidad narrativa.
 
-          p(numero="Actualidad" titulo="Inteligencia Artificial (IA)") La incorporación de algoritmos de aprendizaje automático permite automatizar procesos como interpolación de movimiento, generación de escenarios, optimización de renderizado y creación asistida de personajes, ampliando las posibilidades creativas y técnicas.
+      //- Actualidad
+      div(numero="Actualidad" titulo="Inteligencia Artificial (IA)")
+        .row.align-items-center.p-4
+          .col-md-4.mb-3.mb-md-0
+            figure
+              img(src='@/assets/curso/tema1/lt2/img9.png', alt='IA en animación')
+          .col-md-8
+            p.mb-0 La incorporación de algoritmos de aprendizaje automático permite automatizar procesos como interpolación de movimiento, generación de escenarios, optimización de renderizado y creación asistida de personajes, ampliando las posibilidades creativas y técnicas.
     
     
     p.mb-0 De esta manera, la animación evidencia una evolución continua que integra innovación técnica, desarrollo narrativo y transformación industrial desde sus antecedentes prehistóricos hasta la incorporación de INTELIGENCIA ARTIFICIAL en la actualidad.
