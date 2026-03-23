@@ -20,7 +20,7 @@ export default {
       tema: 'Fundamentos históricos, técnicos y digitales de la animación',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Identificar los conceptos clave relacionados con la evolución histórica, técnicas, principios, imagen digital y tendencias actuales en la animación.',
+        '<b> Objetivo:</b> identificar los conceptos clave relacionados con la evolución histórica, técnicas, principios, imagen digital y tendencias actuales en la animación.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
