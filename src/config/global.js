@@ -74,7 +74,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Técnicas de animación',
+        titulo: 'Imagen digital',
         desarrolloContenidos: true,
         subMenu: [
           {
